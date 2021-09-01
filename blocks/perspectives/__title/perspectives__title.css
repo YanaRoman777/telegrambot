@@ -1,0 +1,32 @@
+.perspectives__title {
+    margin-block-start: 25px;
+    margin-block-end: 0;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    font-size: 56px;
+    line-height: 75px;
+    justify-self: end;
+}
+
+@media all and (max-width: 1500px)  {
+    .perspectives__title {
+        margin-block-start: 15px;
+        font-size: 40px;
+        line-height: 65px;
+    }
+}
+@media all and (max-width: 900px)  {
+    .perspectives__title {
+        font-size: 30px;
+        line-height: 45px;
+        text-align: end;
+    }
+}
+
+@media all and (max-width: 500px)  {
+    .perspectives__title {
+        font-size: 20px;
+        line-height: 24px;
+    }
+}

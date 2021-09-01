@@ -1,0 +1,17 @@
+.perspectives__items {
+    justify-self: end;
+    justify-items: end;
+    margin-top: 40px;
+    width: 100%;
+    max-width: 797px;
+}
+@media all and (max-width: 1500px)  {
+    .perspectives__items {
+        max-width: 590px;
+    }
+}
+@media all and (max-width: 900px)  {
+    .perspectives__items {
+        margin-top: 5px;
+    }
+}

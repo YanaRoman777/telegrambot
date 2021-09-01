@@ -1,0 +1,110 @@
+.footer__link {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding-left: 10px;
+    box-sizing: border-box;
+    align-self: end;
+    justify-self: start;
+}
+
+.footer__link:hover {
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.footer__column-links .footer__link:first-of-type {
+    
+    align-self: start;
+}
+.footer__column-links .footer__link:nth-of-type(2) {
+    align-self: center;
+}
+
+@media all and (max-width: 1500px)  {
+    .footer__link  {
+        font-size: 18px;
+        line-height: 22px;
+    }
+    
+    .footer__link_tel {
+        font-size: 24px;
+        line-height: 29px;
+        }
+}
+
+
+@media all and (max-width: 1300px)  {
+    .footer__link_tel {
+        font-size: 20px;
+        line-height: 26px;
+        padding-left: 0px;
+    }
+}
+
+@media all and (max-width: 1200px)  {
+    .footer__link_tel {
+        font-size: 19px;
+        line-height: 24px;
+    }
+    .footer__link  {
+        font-size: 16px;
+        line-height: 20px;
+        max-width: 90vw;
+    }
+}
+@media all and (max-width: 950px)  {
+    .footer__link  {
+        justify-self: center;
+        align-self: center;
+        display: inline-block;
+        height: 50px;
+        padding-left: 0px;
+        align-self: center;
+        text-align: center;
+    }
+    .footer__link_tel {
+        position: absolute;
+        top: 230px;
+        left: 0;
+        right: 0;
+        margin: auto;
+        height: 40px;
+        padding-top: 10px;
+        }
+    .footer__link_privacy {
+        height: 10px;
+    }
+}
+
+@media all and (max-width: 500px)  {
+    .footer__link  {
+        font-size: 16px;
+        line-height: 17px;
+        align-self: end;
+        height: 70px;
+    }
+    .footer__link span {
+        display: block;
+    }
+    .footer__link_loc {
+        padding-top: 10px;
+        box-sizing: border-box;
+    }
+    
+    .footer__link_tel {
+        font-size: 18px;
+        line-height: 22px;
+        position: absolute;
+        top: 190px;
+        left: 0;
+        right: 0;
+        margin: auto;
+        font-size: 16px;
+        line-height: 19px;
+        height: 50px;
+        }
+}

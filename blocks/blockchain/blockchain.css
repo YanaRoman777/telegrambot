@@ -1,0 +1,20 @@
+.blockchain {
+    display: grid;
+    grid-template-rows: min-content min-content min-content;
+    padding: 40px 120px;
+    box-sizing: border-box;
+}
+
+
+@media all and (max-width: 1500px)  {
+    .blockchain {
+    }
+}
+@media all and (max-width: 1300px)  {
+    .blockchain {
+    }
+}
+@media all and (max-width: 1200px)  {
+    .blockchain {
+    }
+}

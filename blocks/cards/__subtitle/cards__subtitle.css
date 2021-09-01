@@ -1,0 +1,15 @@
+.cards__subtitle {
+    margin-block-start: 0px;
+    margin-block-end: 0;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 35px;
+    color: #570f39;
+}
+
+@media all and (max-width: 900px)  {
+    .cards__subtitle {
+    }
+}

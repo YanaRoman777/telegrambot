@@ -1,0 +1,11 @@
+.block_link {
+    position: relative;
+    display: grid;
+    grid-template-columns: max-content max-content max-content;
+    grid-template-rows: 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 10px;
+    grid-template-areas:
+  "tel tel tel"
+  "tg ws email";
+}

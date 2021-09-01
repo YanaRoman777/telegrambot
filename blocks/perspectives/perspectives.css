@@ -1,0 +1,15 @@
+.perspectives {
+    display: grid;
+    grid-template-rows: min-content min-content 1fr;
+    justify-content: end;
+    background-image: url(#);
+    background-position-y: 396px;
+    background-position-x: 46px;
+    background-size: 938px 924px;
+    padding: 40px 120px 40px;
+    box-sizing: border-box;
+}
+@media all and (max-width: 1500px)  {
+    .perspectives {
+    }
+}

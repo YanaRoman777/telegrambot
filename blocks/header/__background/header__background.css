@@ -1,0 +1,11 @@
+.header__background {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: max-content;
+    max-width: 1920px;
+    width: 100%;
+    color: #fff;
+    padding: 40px 120px;
+    box-sizing: border-box;
+    background: rgba(0, 0, 0, 0.5) center no-repeat;
+}

@@ -1,0 +1,21 @@
+.cards__items {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 20px;
+    margin-top: 71px;
+    justify-content: center;
+}
+@media all and (max-width: 1500px)  {
+    .cards__items {
+        gap: 15px;
+    }
+}
+
+@media all and (max-width: 900px)  {
+    .cards__items {
+        grid-template-columns:  1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+}

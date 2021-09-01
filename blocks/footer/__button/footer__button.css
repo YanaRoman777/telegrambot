@@ -1,0 +1,36 @@
+.footer__button {
+    margin-top: 17px;
+    margin-bottom: 33px;
+    width: 326px;
+    height: 74px;
+    color: #000;
+    text-transform: uppercase;
+    text-align: center;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    box-sizing: border-box;
+    background: #FFFFFF;
+    border:none;
+    border-radius: 10px;
+}
+
+.footer__button:hover {
+    cursor: pointer;
+    opacity: 0.5;
+}
+@media all and (max-width: 1500px)  {
+    .footer__button  {
+        height: 58px;
+    }
+}
+
+@media all and (max-width: 500px)  {
+    .footer__button  {
+        width: 288px;
+        height: 37px;
+        font-size: 14px;
+        line-height: 17px;
+    }
+}

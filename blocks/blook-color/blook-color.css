@@ -1,0 +1,30 @@
+.blook-color {
+   width: 174px;
+   height: 4px;
+   background: #570f39;
+   border-radius: 25%;
+}
+
+.cards .blook-color, .perspectives .blook-color {
+   justify-self: center;
+}
+
+
+@media all and (max-width: 1500px)  {
+   .blook-color {
+      width: 134px;
+   }
+}
+
+@media all and (max-width: 900px)  {
+   .blook-color   {
+      height:2px;
+      width: 80px;
+   }
+}
+
+@media all and (max-width: 500px)  {
+   .blook-color   {
+      width: 50px;
+   }
+}

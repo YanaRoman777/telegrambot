@@ -1,0 +1,9 @@
+.footer__link-icon {
+    margin-right: 8px;
+}
+
+@media all and (max-width: 500px)  {
+    .footer__link-icon  {
+        display: inline-block;
+    }
+}

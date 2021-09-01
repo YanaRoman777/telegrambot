@@ -1,0 +1,13 @@
+.footer__blook-subtitle {
+    display: grid;
+    grid-template-columns: min-content 1fr;
+    grid-template-rows: 1fr;
+    column-gap: 14px;
+    align-self: space-between;
+}
+@media all and (max-width: 950px)  {
+    .footer__blook-subtitle   {
+        grid-template-columns:1fr;
+    grid-template-rows:  min-content 1fr;
+    }
+}
