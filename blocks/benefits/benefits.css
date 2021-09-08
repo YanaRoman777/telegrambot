@@ -1,4 +1,4 @@
-.perspectives {
+.benefits {
     display: grid;
     grid-template-rows: min-content min-content 1fr;
     justify-content: end;
@@ -9,6 +9,23 @@
     box-sizing: border-box;
 }
 @media all and (max-width: 1500px)  {
-    .perspectives {
+    .benefits {
+        padding: 40px 90px;
+    }
+}
+@media all and (max-width: 1200px)  {
+    .benefits {
+        padding: 40px 60px;
+    }
+}
+@media all and (max-width: 800px)  {
+    .benefits {
+        padding: 40px;
+    }
+}
+
+@media all and (max-width: 500px)  {
+    .benefits {
+        padding: 20px;
     }
 }

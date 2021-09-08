@@ -1,4 +1,4 @@
-.perspectives__items {
+.benefits__items {
     justify-self: end;
     justify-items: end;
     margin-top: 40px;
@@ -6,12 +6,14 @@
     max-width: 797px;
 }
 @media all and (max-width: 1500px)  {
-    .perspectives__items {
+    .benefits__items {
         max-width: 590px;
     }
 }
-@media all and (max-width: 900px)  {
-    .perspectives__items {
+@media all and (max-width: 800px)  {
+    .benefits__items {
         margin-top: 5px;
+        justify-content: end;
+        max-width: 397px;
     }
 }

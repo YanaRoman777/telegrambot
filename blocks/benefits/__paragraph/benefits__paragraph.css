@@ -1,4 +1,4 @@
-.perspectives__paragraph {
+.benefits__paragraph {
     display: inline-block;
     width: 100%;
     max-width: 797px;
@@ -18,25 +18,37 @@
 }
 
 @media all and (max-width: 1500px)  {
-    .perspectives__paragraph {
+    .benefits__paragraph {
         margin-block-start: 50px;
         padding: 40px 19px;
         margin-block-start: 30px;
-        font-size: 24px;
-        line-height: 32px;
+        font-size: 22px;
+        line-height: 30px;
         max-width: 590px;
     }
 }
-@media all and (max-width: 900px)  {
-    .perspectives__paragraph {
+
+@media all and (max-width: 1200px)  {
+    .benefits__paragraph {
+        font-size: 20px;
+        line-height: 28px;
+        padding: 25px;
+    }
+}
+@media all and (max-width: 800px)  {
+    .benefits__paragraph {
         font-size: 18px;
-        line-height: 20px;
+        line-height: 24px;
+        padding: 20px;
+        border-radius: 30px;
     }
 }
 
 @media all and (max-width: 500px)  {
-    .perspectives__paragraph {
+    .benefits__paragraph {
         font-size: 14px;
-        line-height: 17px;
+        line-height: 21px;
+        padding: 15px;
+        border-radius: 20px;
     }
 }

@@ -12,13 +12,23 @@
 
 @media all and (max-width: 1500px)  {
     .blockchain {
-    }
-}
-@media all and (max-width: 1300px)  {
-    .blockchain {
+        background-position-x: 0px;
+        padding: 40px 90px;
     }
 }
 @media all and (max-width: 1200px)  {
     .blockchain {
+        padding: 40px 60px;
+    }
+}
+@media all and (max-width: 800px)  {
+    .blockchain {
+        padding: 40px;
+    }
+}
+
+@media all and (max-width: 500px)  {
+    .blockchain {
+        padding: 20px;
     }
 }

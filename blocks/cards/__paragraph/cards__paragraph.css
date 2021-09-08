@@ -11,18 +11,24 @@
 
 @media all and (max-width: 1500px)  {
     .cards__paragraph{
-        font-size: 20px;
-        line-height: 32px;
+        font-size: 22px;
+        line-height: 30px;
     }
 }
-@media all and (max-width: 700px)  {
+@media all and (max-width: 1200px)  {
     .cards__paragraph{
         font-size: 20px;
+        line-height: 28px;
+    }
+}
+@media all and (max-width: 800px)  {
+    .cards__paragraph{
+        font-size: 18px;
         line-height: 24px;
     }
 }
 
-@media all and (max-width: 600px)  {
+@media all and (max-width: 500px)  {
     .cards__paragraph{
         max-width: 100%;
         font-size: 14px;

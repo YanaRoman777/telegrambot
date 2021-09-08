@@ -9,12 +9,9 @@
     justify-items: end;
     width: 100%;
 }
-@media all and (max-width: 1500px)  {
-    .cards__items {
-    }
-}
 
-@media all and (max-width: 900px)  {
+@media all and (max-width: 800px)  {
     .cards__items {
+        margin-top: 25px;
     }
 }

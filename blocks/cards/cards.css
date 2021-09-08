@@ -8,5 +8,24 @@
 }
 @media all and (max-width: 1500px)  {
     .cards {
+        padding: 40px 90px;
+    }
+}
+@media all and (max-width: 1200px)  {
+    .cards {
+        padding: 40px 60px;
+    }
+}
+@media all and (max-width: 800px)  {
+    .cards {
+        padding: 40px;
+    }
+}
+
+@media all and (max-width: 500px)  {
+    .cards {
+        padding: 20px;
+        justify-content: center;
+        justify-items: center;
     }
 }

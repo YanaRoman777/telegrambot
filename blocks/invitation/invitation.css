@@ -8,3 +8,24 @@
     z-index: 1;
     padding: 40px 120px;
 }
+@media all and (max-width: 1500px)  {
+    .invitation {
+        padding: 40px 90px;
+    }
+}
+@media all and (max-width: 1200px)  {
+    .invitation {
+        padding: 40px 60px;
+    }
+}
+@media all and (max-width: 800px)  {
+    .invitation {
+        padding: 40px;
+    }
+}
+
+@media all and (max-width: 500px)  {
+    .invitation {
+        padding: 20px;
+    }
+}

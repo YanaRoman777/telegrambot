@@ -2,6 +2,57 @@
     background: #006b99 center no-repeat;
     background-image: url(../../images/AdobeStock_181434315@0\,3x.png);
     background-size: 400px 400px;
-    background-position: 85% 50% ;
+    background-position: 85% 50%;
     min-height: 700px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: min-content min-content min-content 1fr;
+    max-width: 1920px;
+    width: 100%;
+    color: #fff;
+    padding: 40px 120px;
+    box-sizing: border-box;
+}
+
+@media all and (max-width: 1500px)  {
+    .header {
+        padding: 40px 90px;
+    }
+}
+
+@media all and (max-width: 1200px)  {
+    .header {
+        padding: 40px 60px;
+        background-position: 95% 50%;
+        background-size: 350px 350px;
+    }
+}
+
+@media all and (max-width: 800px)  {
+    .header {
+        padding: 40px;
+        background-position: 50% 95%;
+        background-size: 300px 300px;
+        min-height: 780px;
+    }
+}
+
+@media all and (max-width: 600px)  {
+    .header {
+        padding: 20px;
+        min-height: 730px;
+    }
+}
+
+@media all and (max-width: 500px)  {
+    .header {
+        padding: 20px;
+        min-height: 670px;
+    }
+}
+@media all and (max-width: 400px)  {
+    .header {
+        background-position: 50% 97%;
+        background-size: 280px 280px;
+    }
 }
