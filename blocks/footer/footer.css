@@ -1,9 +1,10 @@
 .footer {
+    margin-top: -2px;
     position: relative;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
-    background: url(../../images/fon_pyatna.jpg) center no-repeat;
+    background: #021632;
     background-size: cover;
     color: #fff;
     padding: 40px 120px;

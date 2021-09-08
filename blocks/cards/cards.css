@@ -1,8 +1,10 @@
 .cards {
     display: grid;
-    justify-content: center;
+    grid-template-columns: 1fr;
+    grid-template-rows: min-content min-content 1fr;
     padding: 40px 120px;
     box-sizing: border-box;
+    justify-content: end;
 }
 @media all and (max-width: 1500px)  {
     .cards {

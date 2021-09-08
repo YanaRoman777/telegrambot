@@ -2,7 +2,11 @@
     display: grid;
     grid-template-rows: min-content min-content min-content;
     padding: 40px 120px;
+    color: #fff;
     box-sizing: border-box;
+    background: #c3deea center no-repeat;
+    background-image: url(../../images/AdobeStock_433705117.png);
+    background-size: cover;
 }
 
 

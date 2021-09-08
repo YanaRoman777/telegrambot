@@ -2,10 +2,9 @@
     display: grid;
     grid-template-rows: min-content min-content 1fr;
     justify-content: end;
-    background-image: url(#);
-    background-position-y: 396px;
-    background-position-x: 46px;
-    background-size: 938px 924px;
+    background: #c3deea center no-repeat;
+    background-image: url(../../images/AdobeStock_440578839.png);
+    background-size: cover;
     padding: 40px 120px 40px;
     box-sizing: border-box;
 }

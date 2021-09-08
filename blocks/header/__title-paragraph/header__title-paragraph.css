@@ -8,9 +8,7 @@
     font-weight: normal;
     font-size: 25px;
     line-height: 30px;
-    width: 900px;
-    text-align: center;
-    justify-self: center;
+    width: 800px;
 }
 
 @media all and (max-width: 1600px)  {
@@ -24,7 +22,6 @@
 
 @media all and (max-width: 1400px)  {
     .header__title-paragraph {
-        width: 700px;
         font-size: 18px;
         line-height: 18px;
         margin-bottom: 40px;

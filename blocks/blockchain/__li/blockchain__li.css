@@ -5,6 +5,10 @@
     line-height: 32px;
 }
 
+.blockchain__li:last-of-type {
+    margin-bottom: 30px;
+}
+
 .blockchain__li::marker {
     padding-inline-start: 20px;
 }

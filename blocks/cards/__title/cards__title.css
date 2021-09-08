@@ -6,8 +6,6 @@
     font-weight: bold;
     font-size: 56px;
     line-height: 75px;
-    text-align: center;
-    justify-self: center;
 }
 
 @media all and (max-width: 1500px)  {
