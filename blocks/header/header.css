@@ -45,13 +45,19 @@
 
 @media all and (max-width: 500px)  {
     .header {
+        background-position: 50% 94%;
         padding: 20px;
         min-height: 670px;
     }
 }
 @media all and (max-width: 400px)  {
     .header {
-        background-position: 50% 97%;
+        background-position: 50% 96,5%;
         background-size: 280px 280px;
+    }
+}
+@media all and (max-width: 350px)  {
+    .header {
+        background-position: 50% 97,5%;
     }
 }

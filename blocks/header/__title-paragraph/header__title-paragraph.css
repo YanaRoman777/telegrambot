@@ -45,14 +45,14 @@
     .header__title-paragraph {
         margin-top: 20px;
         margin-bottom: 30px;
+        font-size: 14px;
+        line-height: 17px;
     }
 }
 
 
 @media all and (max-width: 500px)  {
     .header__title-paragraph {
-        font-size: 14px;
-        line-height: 17px;
         margin-top: 15px;
         margin-bottom: 20px;
     }
