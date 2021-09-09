@@ -8,7 +8,7 @@
 }
 
 @media all and (max-width: 500px)  {
-    .navigation {
+    .footer .navigation {
         grid-template-columns: 1fr;
         grid-template-rows: 1fr min-content;
         gap: 4px;
