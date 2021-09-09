@@ -1,4 +1,4 @@
-.blockchain__title {
+.how__title {
     margin-block-start: 25px;
     margin-block-end: 0;
     margin-inline-start: 0px;
@@ -10,7 +10,7 @@
 }
 
 @media all and (max-width: 1500px)  {
-    .blockchain__title {
+    .how__title {
         margin-block-start: 15px;
         line-height: 65px;
         max-width: 828px;
@@ -19,14 +19,14 @@
     }
 }
 @media all and (max-width: 900px)  {
-    .blockchain__title {
+    .how__title {
         font-size: 30px;
         line-height: 45px;
     }
 }
 
 @media all and (max-width: 500px)  {
-    .blockchain__title {
+    .how__title {
         font-size: 20px;
         line-height: 24px;
         max-width: 100%;

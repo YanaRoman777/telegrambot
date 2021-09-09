@@ -65,13 +65,13 @@
       <section class="invitation">
         <button type="button" class="invitation__button">Задать вопрос</button>
       </section>
-      <section class="blockchain">
+      <section class="how">
         <div class="blook-color"></div>
-        <h2 class="blockchain__title">Как мы будем работать?</h2>
-        <ol class="blockchain__ul">
-          <li class="blockchain__li">После детального изучения вашего продукта и целевой аудитории мы прорабатываем структуру воронки продаж.</li>
-          <li class="blockchain__li">Одновременно с написанием программы наши копирайтеры пишут продающие сценарии бота, рекламы, лендингов и вебинаров.</li>
-          <li class="blockchain__li">Совместный запуск бота с доведением до идеала всех процессов продаж.</li>
+        <h2 class="how__title">Как мы будем работать?</h2>
+        <ol class="how__ul">
+          <li class="how__li">После детального изучения вашего продукта и целевой аудитории мы прорабатываем структуру воронки продаж.</li>
+          <li class="how__li">Одновременно с написанием программы наши копирайтеры пишут продающие сценарии бота, рекламы, лендингов и вебинаров.</li>
+          <li class="how__li">Совместный запуск бота с доведением до идеала всех процессов продаж.</li>
         </ol>
         <button type="button" class="invitation__button">Получить консультацию бесплатно</button>
       </section>
@@ -102,15 +102,15 @@
         <form id="form-add" action="#" class="form" name="form" novalidate>
           <label class="form__field">
             <input id="input-title" type="text" name="title" class="form__input" placeholder="Ваше имя" minlength="2" maxlength="30" required>
-            <span class="input-title-error form__input-error">Вы пропустили это поле.</span>
+            <span class="input-title-error form__input-error"></span>
           </label>
           <label class="form__field">
-            <input id="input-link" type="email" name="link" class="form__input" placeholder="Ваш e-mail" required>
-            <span class="input-link-error form__input-error">Введите правильный e-mail.</span>
+            <input id="input-email" type="email" name="email" class="form__input" placeholder="Ваш e-mail" required>
+            <span class="input-email-error form__input-error"></span>
           </label>
           <label class="form__field">
-            <input id="input-link" type="email" name="tel" class="form__input" placeholder="Ваш телефон" required>
-            <span class="input-link-error form__input-error">Введите правильный телефон.</span>
+            <input id="input-tel" type="number" name="tel" class="form__input" placeholder="Ваш телефон" required>
+            <span class="input-tel-error form__input-error"></span>
           </label>    
           <button type="submit" class="form__submit form__submit_inactive" disabled>Отправить</button>
         </form>

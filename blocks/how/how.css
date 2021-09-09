@@ -1,4 +1,4 @@
-.blockchain {
+.how {
     display: grid;
     grid-template-rows: min-content min-content min-content;
     padding: 40px 120px;
@@ -11,24 +11,24 @@
 
 
 @media all and (max-width: 1500px)  {
-    .blockchain {
+    .how {
         background-position-x: 0px;
         padding: 40px 90px;
     }
 }
 @media all and (max-width: 1200px)  {
-    .blockchain {
+    .how {
         padding: 40px 60px;
     }
 }
 @media all and (max-width: 800px)  {
-    .blockchain {
+    .how {
         padding: 40px;
     }
 }
 
 @media all and (max-width: 500px)  {
-    .blockchain {
+    .how {
         padding: 20px;
     }
 }

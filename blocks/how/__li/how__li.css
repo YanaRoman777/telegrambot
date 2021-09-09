@@ -1,20 +1,20 @@
-.blockchain__li {
+.how__li {
     margin-top: 65px;
     font-weight: normal;
     font-size: 30px;
     line-height: 32px;
 }
 
-.blockchain__li:last-of-type {
+.how__li:last-of-type {
     margin-bottom: 50px;
 }
 
-.blockchain__li::marker {
+.how__li::marker {
     padding-inline-start: 20px;
 }
 
 @media all and (max-width: 1500px)  {
-    .blockchain__li {
+    .how__li {
         margin-top: 40px;
         font-size: 22px;
         line-height: 30px;
@@ -23,20 +23,20 @@
 }
 
 @media all and (max-width: 1200px)  {
-    .blockchain__li {
+    .how__li {
         font-size: 20px;
         line-height: 28px;
     }
 }
 
 @media all and (max-width: 900px)  {
-    .blockchain__li {
+    .how__li {
         margin-top: 30px;
         font-size: 18px;
         line-height: 24px;
         max-width: 390px;
     }
-    .blockchain__li::marker {
+    .how__li::marker {
         padding-inline-start: 10px;
     }
 }
@@ -48,7 +48,7 @@
         max-width: 260px;
     }
     
-    .blockchain__li:last-of-type {
+    .how__li:last-of-type {
         margin-bottom: 20px;
     }
 }

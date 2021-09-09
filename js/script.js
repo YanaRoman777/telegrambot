@@ -50,9 +50,13 @@ for (var a = 0; a < invitationButton.length; a++) {
   });
 }
 closeButton.addEventListener('click', () => closePopup());
-formElement.addEventListener('submit',function(){
-  closePopup();
+
+// submit
+const submitEditProfileForm = evt => {
+  evt.preventDefault();
   buttonElement.setAttribute('disabled', true);
   buttonElement.classList.add('.form__submit_inactive');
   resetFormAdd(formAdd);
-});
+  closePopup();
+}
+formElement.addEventListener('submit', submitEditProfileForm);
