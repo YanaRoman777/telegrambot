@@ -27,6 +27,7 @@
 }
 @media all and (max-width: 800px)  {
     .header__title {
+        margin-block-start: 50px;
         justify-self: center;
         text-align: center;
         font-size: 35px;
@@ -34,9 +35,14 @@
     }
 }
 
+@media all and (max-width: 600px)  {
+    .header__title {
+        margin-block-start: 30px;
+    }
+}
 @media all and (max-width: 500px)  {
     .header__title {
-        font-size: 27px;
-        line-height: 28px;
+        font-size: 30px;
+        line-height: 33px;
     }
 }

@@ -29,3 +29,8 @@
         padding: 20px;
     }
 }
+@media all and (max-width: 400px)  {
+    .benefits {
+        padding: 10px 20px;
+    }
+}

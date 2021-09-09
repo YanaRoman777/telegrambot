@@ -17,3 +17,12 @@
         max-width: 397px;
     }
 }
+@media all and (max-width: 500px)  {
+    .benefits__items {
+        max-width: 297px;
+    }
+}@media all and (max-width: 400px)  {
+    .benefits__items {
+        max-width: 270px;
+    }
+}

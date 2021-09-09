@@ -11,6 +11,7 @@
 
 @media all and (max-width: 1500px)  {
     .blockchain__title {
+        margin-block-start: 15px;
         line-height: 65px;
         max-width: 828px;
         font-size: 40px;

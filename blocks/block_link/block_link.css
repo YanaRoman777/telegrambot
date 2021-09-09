@@ -9,7 +9,7 @@
   "tg ws email";
 }
 
-@media all and (max-width: 1200px)  {
+@media all and (max-width: 800px)  {
   .block_link {
     row-gap: 5px;
   }
@@ -22,5 +22,8 @@
     column-gap: 10px;
     grid-template-areas:
   "tel tg ws email";
+  }
+  .navigation .block_link {
+    justify-self: center;
   }
 }

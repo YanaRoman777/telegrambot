@@ -14,7 +14,7 @@
     color: #333333;
     justify-self: center;
     z-index: 3;
-    box-shadow: 16px 16px 48px rgba(1, 21, 85, 0.3);
+    box-shadow: 5px 5px 18px rgba(247, 245, 191, 0.4);
 }
 
 .invitation__button:hover {
@@ -34,7 +34,7 @@
     .invitation__button {
         align-self: start;
         width: 306px;
-        height: 54px;
+        height: 60px;
     }
 }
 

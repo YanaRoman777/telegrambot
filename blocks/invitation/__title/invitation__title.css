@@ -9,7 +9,7 @@
     line-height: 64px;
     text-align: center;
     z-index: 3;
-    color: #006b99;
+    color: #021632;
 }
 @media all and (max-width: 1500px)  {
     .invitation__title {
@@ -34,7 +34,8 @@
 
 @media all and (max-width: 500px)  {
     .invitation__title {
-        font-size: 14px;
-        line-height: 19px;
+        font-size: 20px;
+        line-height: 24px;
+        margin-block-end: 20px;
     }
 }

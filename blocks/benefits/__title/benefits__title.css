@@ -7,6 +7,7 @@
     font-size: 56px;
     line-height: 75px;
     justify-self: end;
+    text-align: end;
 }
 
 @media all and (max-width: 1500px)  {
@@ -14,13 +15,13 @@
         margin-block-start: 15px;
         font-size: 40px;
         line-height: 65px;
+        max-width: 650px;
     }
 }
 @media all and (max-width: 900px)  {
     .benefits__title {
         font-size: 30px;
         line-height: 45px;
-        text-align: end;
     }
 }
 
@@ -28,5 +29,7 @@
     .benefits__title {
         font-size: 20px;
         line-height: 24px;
+        justify-self: center;
+        text-align: center;
     }
 }

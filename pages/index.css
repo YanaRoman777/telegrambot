@@ -25,16 +25,8 @@
 @import url(../blocks/blockchain/__ul/__ul.css);
 @import url(../blocks/blockchain/__li/blockchain__li.css);
 @import url(../blocks/footer/footer.css);
-@import url(../blocks/footer/__column-logo/footer__column-logo.css);
-@import url(../blocks/footer/__link/footer__link.css);
-@import url(../blocks/footer/__link-icon/footer__link-icon.css);
-@import url(../blocks/footer/__column-button/footer__column-button.css);
 @import url(../blocks/footer/__paragraph/footer__paragraph.css);
-@import url(../blocks/footer/__button/footer__button.css);
-@import url(../blocks/footer/__column-links/footer__column-links.css);
 @import url(../blocks/footer/__blook-subtitle/footer__blook-subtitle.css);
-@import url(../blocks/footer/__subtitle/footer__subtitle.css);
-@import url(../blocks/hamburger/hamburger.css);
 @import url(../blocks/block_link/block_link.css);
 @import url(../blocks/link/__tel/link__tel.css);
 @import url(../blocks/link/__ws/link__ws.css);

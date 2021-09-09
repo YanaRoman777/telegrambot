@@ -39,7 +39,6 @@
 
 @media all and (max-width: 600px)  {
     .header {
-        padding: 20px;
         min-height: 730px;
     }
 }

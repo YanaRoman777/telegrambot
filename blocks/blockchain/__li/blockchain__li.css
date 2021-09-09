@@ -6,7 +6,7 @@
 }
 
 .blockchain__li:last-of-type {
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 
 .blockchain__li::marker {
@@ -16,23 +16,39 @@
 @media all and (max-width: 1500px)  {
     .blockchain__li {
         margin-top: 40px;
-        font-size: 24px;
-        line-height: 29px;  
+        font-size: 22px;
+        line-height: 30px;
         max-width: 498px; 
+    }
+}
+
+@media all and (max-width: 1200px)  {
+    .blockchain__li {
+        font-size: 20px;
+        line-height: 28px;
     }
 }
 
 @media all and (max-width: 900px)  {
     .blockchain__li {
-        margin-top: 45px;
-        font-size: 25px;
-        line-height: 22px; 
+        margin-top: 30px;
+        font-size: 18px;
+        line-height: 24px;
+        max-width: 390px;
+    }
+    .blockchain__li::marker {
+        padding-inline-start: 10px;
     }
 }
 @media all and (max-width: 500px)  {
     .blockchain__li {
-        margin-top: 25px;
+        margin-top: 15px;
         font-size: 14px;
-        line-height: 17px;
+        line-height: 21px;
+        max-width: 260px;
+    }
+    
+    .blockchain__li:last-of-type {
+        margin-bottom: 20px;
     }
 }

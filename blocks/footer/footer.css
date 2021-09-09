@@ -1,9 +1,5 @@
 .footer {
     margin-top: -2px;
-    position: relative;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr;
     background: #021632;
     background-size: cover;
     color: #fff;
@@ -31,5 +27,7 @@
 @media all and (max-width: 500px)  {
     .footer {
         padding: 20px;
+        justify-content: center;
+        text-align: center;
     }
 }

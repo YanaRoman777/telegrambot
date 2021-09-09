@@ -5,7 +5,15 @@
     gap: 14px;
     justify-content: start;
 }
-@media all and (max-width: 950px)  {
+@media all and (max-width: 800px)  {
     .footer__blook-subtitle   {
+        gap: 7px;
+    }
+}
+
+@media all and (max-width: 500px)  {
+    .footer__blook-subtitle   {
+        justify-self: center;
+        gap: 4px;
     }
 }
