@@ -35,5 +35,6 @@
 @media all and (max-width: 350px)  {
     .how {
         padding: 20px;
+        font-weight: bold;
     }
 }
