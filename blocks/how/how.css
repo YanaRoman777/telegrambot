@@ -12,7 +12,6 @@
 
 @media all and (max-width: 1500px)  {
     .how {
-        background-position-x: 0px;
         padding: 40px 90px;
     }
 }
@@ -28,6 +27,12 @@
 }
 
 @media all and (max-width: 500px)  {
+    .how {
+        padding: 20px;
+    }
+}
+
+@media all and (max-width: 350px)  {
     .how {
         padding: 20px;
     }

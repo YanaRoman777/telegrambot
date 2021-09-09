@@ -41,8 +41,8 @@
     }
 }
 @media all and (max-width: 500px)  {
-    .blockchain__li {
-        margin-top: 15px;
+    .how__li {
+        margin-top: 20px;
         font-size: 14px;
         line-height: 21px;
         max-width: 260px;
@@ -50,5 +50,11 @@
     
     .how__li:last-of-type {
         margin-bottom: 20px;
+    }
+}
+
+@media all and (max-width: 350px)  {
+    .how__li {
+        max-width: 220px;
     }
 }
