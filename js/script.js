@@ -1,33 +1,22 @@
-const profileInfoButton = document.querySelector('.profile__info-button');
-const profileButton = document.querySelector('.invitation__button');
-const profileTitle = document.querySelector('.profile__info-title');
-const profileSubtitle = document.querySelector('.profile__info-subtitle');
+const invitationButton = document.querySelectorAll('.invitation__button');
 const popup = document.querySelector('.popup');
-const popupContainer = popup.querySelector('.popup__container');
 const closeButton = popup.querySelector('.popup__close');
 const formElement = document.querySelector('.form');
-const nameInput = document.querySelector('#input-name');
-const jobInput = document.querySelector('#input-job');
-const cards = document.querySelector('.cards');
-const popupPlaces = document.querySelector('.popup-places');
-const closePlacesButton = popupPlaces.querySelector('.popup__close');
-const popupNewPlaces = popupPlaces.querySelector('.popup__new-places');
-const popupProfile = document.querySelector('.popup-profile');
 const formAdd = document.querySelector('#form-add');
 const buttonElement = formAdd.querySelector('.form__submit');
 
-
 // Открытие попап 
-function openPopup (popup) {
+function openPopup () {
+  resetFormAdd(formAdd);
+  buttonElement.setAttribute('disabled', true);
+  buttonElement.classList.add('.form__submit_inactive');
   popup.classList.add('popup_opened');
   document.addEventListener('keydown', closePopupOnEsc);
   popup.addEventListener('click', closePopupOnOverlay);
 };
 
-
 // Закрытие попапов
-function closePopup(popup) {
-
+function closePopup() {
   popup.classList.remove('popup_opened');
   document.removeEventListener('keydown', closePopupOnEsc);
   popup.removeEventListener('click', closePopupOnOverlay);
@@ -40,7 +29,7 @@ function closePopupOnOverlay(evt) {
     closePopup(popupOpened);
   }
 }
-  
+
 // закрытие попап нажатием на esc
 function closePopupOnEsc(evt) {
   if (evt.key === 'Escape') {
@@ -49,21 +38,21 @@ function closePopupOnEsc(evt) {
   }
 }
 
-// функция очистки формы карточки
+// функция очистки формы 
 function resetFormAdd(formAdd) {
   formAdd.reset();
 }
 
-// Открытие и закрытие попапа с добавлением карточки
-profileButton.addEventListener('click', () => openPopupPlaces());
-closePlacesButton.addEventListener('click', () => closePopup(popupPlaces));
-
-
-// редактирование профиля
-const submitEditProfileForm = evt => {
-    evt.preventDefault();
-    profileTitle.textContent = nameInput.value;
-    profileSubtitle.textContent = jobInput.value;
-    closePopup(popupProfile);
+// Открытие и закрытие попапа
+for (var a = 0; a < invitationButton.length; a++) {    
+  invitationButton[a].addEventListener('click',function(){
+    openPopup()
+  });
 }
-formElement.addEventListener('submit', submitEditProfileForm);
+closeButton.addEventListener('click', () => closePopup());
+formElement.addEventListener('submit',function(){
+  closePopup();
+  buttonElement.setAttribute('disabled', true);
+  buttonElement.classList.add('.form__submit_inactive');
+  resetFormAdd(formAdd);
+});

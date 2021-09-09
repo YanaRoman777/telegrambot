@@ -3,12 +3,11 @@
     margin-block-end: 0em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
-    font-family: 'Inter', 'Arial', sans-serif;
     font-style: normal;
-    font-weight: 900;
     font-size: 24px;
-    line-height: 29px;
-    color: #000000;
+    line-height: 30px;
+    color: #006b99;
+    text-align: center;
 }
 
 @media all and (max-width: 640px) {
