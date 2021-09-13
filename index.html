@@ -4,11 +4,11 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Telegrambot</title>
-  <link rel="stylesheet" type="text/css" href="./vendor/fullpage.css" />
+  <link rel="stylesheet" type="text/css" href="./vendor/jquery.fullpage.css "/>
   <link rel="stylesheet" href="./pages/index.css">
 </head>
 <body>
-  <div class="page">
+  <div id="fullpage" class="page">
     <header class="header">
         <nav class="navigation">
           <h4 class="header__subtitle">ИП Сигаев В. Г.</h4>
@@ -27,7 +27,7 @@
       <p class="header__title-paragraph">Создание автоматизированной воронки продаж, которая не упускает потенциальных клиентов и держит с ними плотный контакт до завершения покупки.</p>
       <button class="invitation__button">Получить консультацию бесплатно</button>
     </header>
-    <main id="fullpage" class="content">
+    <div class="content">
       <section class="section cards">
         <div class="blook-color"></div>
         <h2 class="cards__title">Прост в использовании, прозрачен в аналитике.</h2>
@@ -49,7 +49,7 @@
             </div>
           </div>
       </section>
-      <section class="invitation">
+      <section class="section fp-auto-height invitation">
         <h2 class="invitation__title">Телеграм бот позволяет вести двусторонний диалог с клиентами, что повышает их вовлеченность и лояльность.</h2>
         <button type="button" class="invitation__button">Получить консультацию бесплатно</button>
       </section>
@@ -63,7 +63,7 @@
             <p class="benefits__paragraph">Возможность оплаты внутри бота, позволяет не уводить клиента с сайта на сайт, чем снижает процент отказа.</p>
           </div>
       </section>
-      <section class="invitation">
+      <section class="section fp-auto-height invitation">
         <button type="button" class="invitation__button">Задать вопрос</button>
       </section>
       <section class="section how">
@@ -76,8 +76,8 @@
         </ol>
         <button type="button" class="invitation__button">Получить консультацию бесплатно</button>
       </section>
-    </main>
-    <footer class="footer">
+    </div>
+    <footer class="footer section fp-auto-height">
       <div class="navigation">
         <div class="footer__blook-subtitle">
           <h4 class="footer__paragraph">ИП Сигаев В. Г.</h4>
@@ -118,7 +118,8 @@
       </div>
     </div>
   </div>
-<script type="text/javascript" src="./js/fullpage.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="./js/jquery.fullpage.js"></script>
 <script src="./js/script.js"></script>
 <script src="./js/validate.js"></script>
 </body>
