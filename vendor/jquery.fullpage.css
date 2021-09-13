@@ -10,6 +10,7 @@
      margin: 0;
      padding: 0;
      overflow:hidden;
+     background: #c3deea;
  
      /*Avoid flicker on slides transitions for mobile phones #336 */
      -webkit-tap-highlight-color: rgba(0,0,0,0);
@@ -33,11 +34,14 @@
      -webkit-transition: all 0.3s ease-out; /* Safari<=6 Android<=4.3 */
      transition: all 0.3s ease-out;
  }
- .fp-section.fp-table, .fp-slide.fp-table {
-     display: table;
-     table-layout:fixed;
+ .fp-section.fp-table:first-of-type {
+     display: grid;
      width: 100%;
  }
+ .fp-section.fp-table, .fp-slide.fp-table {
+    display: table;
+    width: 100%;
+}
  .fp-tableCell {
      display: table-cell;
      vertical-align: middle;

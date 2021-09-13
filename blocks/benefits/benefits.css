@@ -31,6 +31,8 @@
 }
 @media all and (max-width: 400px)  {
     .benefits {
-        padding: 10px 20px;
+        padding: auto 20px;
+        height: auto !important;
+        align-content: center;
     }
 }
