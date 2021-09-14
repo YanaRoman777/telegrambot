@@ -42,10 +42,14 @@
 }
 @media all and (max-width: 500px)  {
     .how__li {
-        margin-top: 20px;
+        margin-top: 50px;
         font-size: 14px;
         line-height: 21px;
         max-width: 260px;
+    }
+
+    .how__li:first-of-type {
+        margin-top: 0px;
     }
     
     .how__li:last-of-type {

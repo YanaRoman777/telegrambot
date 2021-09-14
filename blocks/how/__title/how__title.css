@@ -22,6 +22,7 @@
     .how__title {
         font-size: 30px;
         line-height: 45px;
+        align-self: center;
     }
 }
 
