@@ -40,7 +40,6 @@
 
 @media all and (max-width: 500px)  {
     .invitation__button {
-        position: relative;
         width: 288px;
         font-size: 14px;
         line-height: 16px;
