@@ -31,5 +31,6 @@
         line-height: 24px;
         justify-self: center;
         text-align: center;
+        margin-block-end: 30px;
     }
 }
