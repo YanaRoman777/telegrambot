@@ -42,23 +42,35 @@
 }
 @media all and (max-width: 500px)  {
     .how__li {
-        margin-top: 50px;
-        font-size: 14px;
-        line-height: 21px;
+        margin-top: 40px;
+        font-size: 16px;
+        line-height: 23px;
         max-width: 260px;
     }
 
     .how__li:first-of-type {
-        margin-top: 0px;
+        margin-top: 30px;
     }
     
     .how__li:last-of-type {
-        margin-bottom: 20px;
+        margin-bottom: 30px;
     }
 }
 
 @media all and (max-width: 350px)  {
     .how__li {
         max-width: 220px;
+    }
+    .how__li:first-of-type {
+        margin-top: 25px;
+    }
+    
+    .how__li:last-of-type {
+        margin-bottom: 25px;
+    }
+    .how__li {
+        font-size: 15px;
+        line-height: 22px;
+        margin-top: 25px;
     }
 }

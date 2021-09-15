@@ -22,11 +22,17 @@
     cursor: pointer;
 }
 
+@media all and (max-width: 1100px) {
+    .form__submit {
+        margin-top: 38px;
+    }
+}
+
 @media all and (max-width: 640px) {
     .form__submit {
         font-size: 14px;
         line-height: 17px;
-        margin-top: 45px;
+        margin-top: 18px;
         height: 46px;
     }
 }
