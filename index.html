@@ -4,12 +4,11 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Telegrambot</title>
-  <link rel="stylesheet" type="text/css" href="./vendor/jquery.fullpage.css "/>
   <link rel="stylesheet" href="./pages/index.css">
 </head>
 <body>
-  <div id="fullpage" class="page">
-    <header class="header section">
+  <div class="page">
+    <header class="header">
         <nav class="navigation">
           <h4 class="header__subtitle">ИП Сигаев В. Г.</h4>
           <section class="block_link">
@@ -27,7 +26,7 @@
       <h4 class="header__title-paragraph">Создание автоматизированной воронки продаж, которая не упускает потенциальных клиентов и держит с ними плотный контакт до завершения покупки.</h4>
       <button class="invitation__button">Получить консультацию бесплатно</button>
     </header>
-    <section class="section fp-auto-height cards">
+    <section class="cards">
       <div class="blook-color"></div>
       <h2 class="cards__title">Прост в использовании, прозрачен в аналитике.</h2>
         <div class="cards__items">
@@ -48,11 +47,11 @@
           </div>
         </div>
     </section>
-    <section class="section fp-auto-height invitation">
+    <section class="invitation">
       <h2 class="invitation__title">Телеграм бот позволяет вести двусторонний диалог с клиентами, что повышает их вовлеченность и лояльность.</h2>
       <button type="button" class="invitation__button">Получить консультацию бесплатно</button>
     </section>
-    <section class="section fp-auto-height benefits">
+    <section class="benefits">
       <div class="blook-color"></div>
         <h2 class="benefits__title">Преимущества бота над другими платформами:</h2>
         <div class="benefits__items">
@@ -62,10 +61,10 @@
           <p class="benefits__paragraph">Возможность оплаты внутри бота, позволяет не уводить клиента с сайта на сайт, чем снижает процент отказа.</p>
         </div>
     </section>
-    <section class="section fp-auto-height invitation">
+    <section class="invitation">
       <button type="button" class="invitation__button">Задать вопрос</button>
     </section>
-    <section class="section how">
+    <section class="how">
       <div class="blook-color"></div>
       <h2 class="how__title">Как мы будем работать?</h2>
       <ol class="how__ul">
@@ -75,7 +74,7 @@
       </ol>
       <button type="button" class="invitation__button">Получить консультацию бесплатно</button>
     </section>
-    <footer class="footer section fp-auto-height">
+    <footer class="footer">
       <div class="navigation">
         <div class="footer__blook-subtitle">
           <h4 class="footer__paragraph">ИП Сигаев В. Г.</h4>
@@ -108,7 +107,7 @@
             <span class="input-email-error form__input-error"></span>
           </label>
           <label class="form__field">
-            <input id="input-tel" type="number" name="tel" class="form__input" placeholder="Ваш телефон" required>
+            <input id="input-tel" type="tel" name="tel" class="form__input" placeholder="Ваш телефон" minlength="11" maxlength="12" required>
             <span class="input-tel-error form__input-error"></span>
           </label>    
           <button type="submit" class="form__submit form__submit_inactive" disabled>Отправить</button>
@@ -116,9 +115,6 @@
       </div>
     </div>
   </div>
-<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
-<script src="./js/jquery.fullpage.js"></script>
 <script src="./js/script.js"></script>
-<script src="./js/validate.js"></script>
-</body>
+<script src="./js/validate.js"></script></body>
 </html>

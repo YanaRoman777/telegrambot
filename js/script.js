@@ -1,4 +1,4 @@
-const invitationButton = document.querySelectorAll('.invitation__button');
+(function () {const invitationButton = document.querySelectorAll('.invitation__button');
 const popup = document.querySelector('.popup');
 const closeButton = popup.querySelector('.popup__close');
 const formElement = document.querySelector('.form');
@@ -61,3 +61,4 @@ const submitEditProfileForm = evt => {
 }
 formElement.addEventListener('submit', submitEditProfileForm);
 
+})();
