@@ -29,9 +29,10 @@
 
 @media all and (max-width: 500px)  {
     .how {
-        min-height: 100%;
+        height: 100vh;
         padding: 20px;
         background-position-x: 15%;
+        align-content: center;
     }
 }
 
