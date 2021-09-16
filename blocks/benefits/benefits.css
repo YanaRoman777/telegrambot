@@ -27,6 +27,8 @@
 @media all and (max-width: 500px)  {
     .benefits {
         padding: 20px;
+        height: 95vh;
+        align-content: center;
     }
 }
 @media all and (max-width: 400px)  {
