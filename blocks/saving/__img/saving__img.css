@@ -3,6 +3,7 @@
     margin-right: -100px;
     width: 600px;
     align-self: center;
+    justify-self: center;
     grid-area: img;
     position: relative;
 }
@@ -29,6 +30,5 @@
 @media all and (max-width: 500px)  {
     .saving__img {
         width: 280px;
-        justify-self: center;
     }
 }
