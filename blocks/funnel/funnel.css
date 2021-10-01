@@ -1,0 +1,32 @@
+.funnel {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: min-content min-content 1fr min-content;
+    justify-items: center;
+    background: linear-gradient(
+        180deg, rgb(158, 252, 252) 10%, rgb(195,222,234) 99%) center no-repeat;
+    padding: 40px 120px;
+    box-sizing: border-box;
+}
+@media all and (max-width: 1500px)  {
+    .funnel {
+        padding: 40px 90px;
+    }
+}
+@media all and (max-width: 1200px)  {
+    .funnel {
+        padding: 40px 60px;
+    }
+}
+@media all and (max-width: 800px)  {
+    .funnel {
+        padding: 40px;
+    }
+}
+
+@media all and (max-width: 500px)  {
+    .funnel {
+        padding: 20px;
+        justify-content: center;
+    }
+}

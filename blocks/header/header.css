@@ -54,8 +54,3 @@
         background-size: 280px 280px;
     }
 }
-@media all and (max-width: 350px)  {
-    .header {
-        background-position: 50% 97,5%;
-    }
-}

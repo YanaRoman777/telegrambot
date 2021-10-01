@@ -1,0 +1,21 @@
+.funnel__ps {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: min-content;
+    justify-items: stretch;
+    width: 100%;
+    gap: 10px;
+    margin-block-end: 20px;
+}
+@media all and (max-width: 800px)  {
+    .funnel__ps {
+        grid-template-columns: 1fr;
+        grid-template-rows: min-content min-content min-content;
+        justify-content: center;
+    }
+}
+
+@media all and (max-width: 500px)  {
+    .funnel__ps {
+    }
+}

@@ -1,4 +1,4 @@
-.invitation__button {
+.button {
     font-family: 'Proxima Nova', 'Arial', sans-serif;
     width: 326px;
     height: 74px;
@@ -17,21 +17,13 @@
     box-shadow: 5px 5px 18px rgba(247, 245, 191, 0.4);
 }
 
-.invitation__button:hover {
+.button:hover {
     opacity: 0.8;
     cursor: pointer;
 }
-@media all and (max-width: 1500px)  {
-    .invitation__button {
-    }
-}
-@media all and (max-width: 1200px)  {
-    .invitation__button {
-    }
-}
 
 @media all and (max-width: 800px)  {
-    .invitation__button {
+    .button {
         align-self: start;
         width: 306px;
         height: 60px;
@@ -39,7 +31,7 @@
 }
 
 @media all and (max-width: 500px)  {
-    .invitation__button {
+    .button {
         width: 288px;
         font-size: 14px;
         line-height: 16px;

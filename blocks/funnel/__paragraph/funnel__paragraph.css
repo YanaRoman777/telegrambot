@@ -1,0 +1,64 @@
+.funnel__paragraph {
+    display: inline-block;
+    margin-block-start: 10px;
+    margin-block-end: 40px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.funnel__ps .funnel__paragraph {
+    max-width: 326px;
+    width: 100%;
+    min-height: 74px;
+    background: rgba(255, 255, 255, 0.8);
+    box-shadow: 5px 5px 18px rgba(0, 255, 255, 0.6);
+    border: none;
+    border-radius: 40px;
+    text-align: center;
+    align-self: center;
+    justify-self: center;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-block-start: 10px;
+    margin-block-end: 10px;
+}
+@media all and (max-width: 1500px)  {
+    .funnel__paragraph {
+        font-size: 22px;
+        line-height: 30px;
+    }
+}
+@media all and (max-width: 1200px)  {
+    .funnel__paragraph {
+        font-size: 20px;
+        line-height: 28px;
+    }
+}
+@media all and (max-width: 800px)  {
+    .funnel__paragraph{
+        margin-block-start: 20px;
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .funnel__ps .funnel__paragraph {
+        align-self: start;
+        max-width: 306px;
+        min-height: 60px;
+        padding: 15px;
+    }
+}
+
+@media all and (max-width: 500px)  {
+    .funnel__paragraph {
+        max-width: 100%;
+    }
+
+    .funnel__ps .funnel__paragraph {
+        max-width: 288px;
+        min-height: 36px;
+        padding: 7px;
+    }
+}
