@@ -6,7 +6,7 @@
     min-height: 700px;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: min-content min-content min-content 1fr;
+    grid-template-rows: min-content min-content min-content 1fr min-content;
     max-width: 1920px;
     width: 100%;
     color: #fff;
@@ -31,28 +31,27 @@
 @media all and (max-width: 800px)  {
     .header {
         padding: 40px;
-        background-position: 50% 95%;
+        background-position: 50% 80%;
         background-size: 300px 300px;
-        min-height: 780px;
+        min-height: 900px;
     }
 }
 
 @media all and (max-width: 600px)  {
     .header {
-        min-height: 730px;
+        min-height: 830px;
     }
 }
 
 @media all and (max-width: 500px)  {
     .header {
-        background-position: 50% 94%;
         padding: 20px;
-        min-height: 670px;
+        min-height: 770px;
     }
 }
 @media all and (max-width: 400px)  {
     .header {
-        background-position: 50% 96,5%;
+        background-position: 50% 85%;
         background-size: 280px 280px;
     }
 }

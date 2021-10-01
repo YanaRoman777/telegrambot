@@ -1,0 +1,33 @@
+.saving__img {
+    margin-top: 30px;
+    margin-right: -100px;
+    width: 600px;
+    align-self: center;
+    grid-area: img;
+    position: relative;
+}
+
+@media all and (max-width: 1500px)  {
+    .saving__img {
+        margin-right: -80px;
+        width: 600px;
+    }
+}
+@media all and (max-width: 1200px)  {
+    .saving__img {
+        margin-right: -50px;
+        width: 500px;
+    }
+}
+@media all and (max-width: 800px)  {
+    .saving__img {
+        margin-right: 0px;
+        width: 400px;
+    }
+}
+
+@media all and (max-width: 500px)  {
+    .saving__img {
+        width: 280px;
+    }
+}

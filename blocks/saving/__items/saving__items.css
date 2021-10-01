@@ -1,0 +1,43 @@
+.saving__items{
+    display: grid;
+    grid-template-columns: 1fr max-content;
+    grid-template-rows: repeat(5, max-content);
+    grid-template-areas: 
+    "pr1 pr1"
+    "pr2 img"
+    "pr3 img"
+    "pr4 img"
+    "pr5 pr5";
+    position: relative;
+    margin-bottom: 30px;
+}
+@media all and (max-width: 1200px)  {
+    .saving__items {
+        grid-template-areas: 
+        "pr1 pr1"
+        "pr2 img"
+        "pr3 img"
+        "pr4 pr4"
+        "pr5 pr5";
+    }
+}
+@media all and (max-width: 800px)  {
+    .saving__items {
+        grid-template-columns: 1fr ;
+        grid-template-rows: repeat(5, max-content);
+        grid-template-areas: 
+        "img"
+        "pr1"
+        "pr2"
+        "pr3"
+        "pr4"
+        "pr5";
+    }
+}
+
+@media all and (max-width: 500px)  {
+    .saving__items {
+        margin-right: 0px;
+        width: 280px;
+    }
+}

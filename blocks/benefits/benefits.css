@@ -2,38 +2,40 @@
     display: grid;
     grid-template-rows: min-content min-content 1fr;
     justify-content: end;
-    background: #c3deea center no-repeat;
-    background-image: url(../../images/AdobeStock_440578839.png);
-    background-size: cover;
+    background: #003366 no-repeat;
+    background-image: url(../../images/benefits.png);
+    background-size: 900px 900px;
+    background-position: 0% 50%;
     padding: 40px 120px 40px;
     box-sizing: border-box;
 }
 @media all and (max-width: 1500px)  {
     .benefits {
         padding: 40px 90px;
+        background-size: 800px 800px;
+        background-position: -200px 300px;
     }
 }
 @media all and (max-width: 1200px)  {
     .benefits {
         padding: 40px 60px;
+        background-size: 700px 700px;
     }
 }
 @media all and (max-width: 800px)  {
     .benefits {
         padding: 40px;
+        background-position: -200px 200px;
     }
 }
 
 @media all and (max-width: 500px)  {
     .benefits {
         padding: 20px;
-        height: 95vh;
-        align-content: center;
+        background-position: -300px 200px;
     }
 }
 @media all and (max-width: 400px)  {
     .benefits {
-        height: auto !important;
-        align-content: center;
     }
 }

@@ -1,0 +1,34 @@
+.saving__subtitle {
+    display: block;
+    margin-block-start: 20px;
+    margin-block-end: 0;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 30px;
+    color: #f7ba05;
+}
+
+@media all and (max-width: 1200px)  {
+    .saving__subtitle{
+        font-size: 28px;
+        line-height: 28px;
+    }
+}
+@media all and (max-width: 800px)  {
+    .saving__subtitle{
+        font-size: 24px;
+        line-height: 24px;
+        margin-block-start: 15px;
+    }
+}
+
+@media all and (max-width: 500px)  {
+    .saving__subtitle{
+        max-width: 100%;
+        font-size: 20px;
+        line-height: 21px;
+        margin-block-start: 10px;
+    }
+}
